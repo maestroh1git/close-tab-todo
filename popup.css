@@ -1,0 +1,36 @@
+.container {
+    width: 300px;
+    padding: 10px;
+}
+
+button {
+    margin: 5px 0;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+#taskList {
+    margin-top: 10px;
+}
+
+.task-item {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.settings {
+    margin: 10px 0;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.toggle input {
+    margin: 0;
+}
